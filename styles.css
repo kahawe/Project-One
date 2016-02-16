@@ -1,0 +1,216 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of CSS reset */
+
+
+body{
+	background-image:url("images/bg.png");
+	background-size: cover;
+
+}
+header {
+	text-align: center;
+	font-family: sans-serif;
+	padding: 20px;
+	margin: 20px;
+}
+
+h1{
+	font-size: 80px;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+h2{
+	font-size: 20px;
+	margin-top: 40px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.about {
+	font-size: 15px;
+	color: grey;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+a {
+	text-decoration: none;
+	color: black;
+
+}
+a:hover{
+	color: pink;
+}
+
+.container{
+	margin:auto;
+	width:1600px;
+	height: 1600px;
+
+}
+
+.card{
+	width: 500px;
+	height: 500px;
+	background: pink;
+	margin: 16px;
+	float: left;
+}
+
+h3{
+	font-size: 70px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	padding: 30px;
+	color: #E91E63;
+	text-transform: uppercase;
+}
+.picks {
+	height: 150px;
+	width: 210px;
+	background-color: pink;
+	display: inline-block;
+	margin-left: 27px;
+	margin-top: 200px;
+	opacity: 0.8;
+	text-align: center;
+	z-index: 1;
+}
+ul{
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 10px;
+}
+
+.name {
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 18px;
+	padding-bottom: 10px;
+}
+
+.aka {
+	font-size: 15px;
+	line-height: 3px;
+}
+.age {
+	font-size: 18px;
+	line-height: 24px;
+	padding-top: 15px;
+}
+.town {
+	font-size: 17px;
+}
+
+footer {
+	float: clear;
+	text-align: center;
+	font-family: sans-serif;
+	padding: 20px;
+	margin: 20px;
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Image Sets */
+
+	#ben{
+		background-image: url("images/ben_bg.jpg");
+	}
+	#ben:hover {
+		background-image: url("images/ben_picks.jpg");
+	}
+
+#jo{
+	background-image: url("images/jo_bg.jpg");
+}
+#jo:hover {
+	background-image: url("images/jo_picks.jpg");
+}
+
+	#taryn{
+		background-image: url("images/taryn_bg.jpg");
+	}
+	#taryn:hover {
+		background-image: url("images/taryn_picks.jpg");
+	}
+
+#connor{
+	background-image: url("images/connor_bg.jpg");
+}
+#connor:hover {
+	background-image: url("images/connor_picks.jpg");
+}
+
+	#jordan{
+		background-image: url("images/jordan_bg.jpg");
+	}
+	#jordan:hover {
+		background-image: url("images/jordan_picks.jpg");
+	}
+
+#samji{
+background-image: url("images/samji_bg.jpg");
+}
+#samji:hover {
+background-image: url("images/samji_picks.jpg");
+}
+
+	#robin{
+		background-image: url("images/robin_bg.jpg");
+	}
+	#robin:hover {
+		background-image: url("images/robin_picks.jpg");
+	}
+
+#kat{
+background-image: url("images/kat_bg.jpg");
+}
+#kat:hover {
+background-image: url("images/kat_picks.jpg");
+}
